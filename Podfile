@@ -4,8 +4,9 @@ target 'MozendaApp' do
   use_frameworks!
 
   # Pods for MozendaApp
+  
   pod 'Firebase'
-  Pod 'MozendaSwift'
+  # pod 'MozendaSwift'
 
   target 'MozendaAppTests' do
     inherit! :search_paths
