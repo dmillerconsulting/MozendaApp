@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.8.2)
   - Firebase (6.1.0):
     - Firebase/Core (= 6.1.0)
   - Firebase/Core (6.1.0):
@@ -46,17 +47,23 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.1.0):
     - GoogleUtilities/Logger
+  - MozendaSwift (0.0.4):
+    - Alamofire (~> 4.7)
+    - SwiftyJSON
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Firebase
+  - MozendaSwift (from `/Users/work/Repos/MozendaSwift`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -64,16 +71,24 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - nanopb
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  MozendaSwift:
+    :path: "/Users/work/Repos/MozendaSwift"
 
 SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   Firebase: 8d77bb33624ae9b62d745d82ec023de5f70f7e4f
   FirebaseAnalytics: 629301c2b9925f3537d4093a17a72751ae5b7084
   FirebaseCore: 66bdef3b310a026880e2a5bc8aa586ab62ce4543
   FirebaseInstanceID: 27bed93a59b6685f5c3e0c028a878a764fd75c33
   GoogleAppMeasurement: 51d8d9ea48f0ca44484d29cfbdef976fbd4fc336
   GoogleUtilities: 84df567c76ca84f67b7bb40e769fdd4acc746a10
+  MozendaSwift: 1401717bd672490be4e833389a0b7f1447b8114f
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: f87809f799887816e40ee0791acea3a986cc2652
+PODFILE CHECKSUM: 7faf32903d6ba174c1332929d9dfff968384a98c
 
 COCOAPODS: 1.7.0

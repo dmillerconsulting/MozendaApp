@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		964A21C722973ACB004980B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964A21C522973ACB004980B5 /* LaunchScreen.storyboard */; };
 		964A21D222973ACB004980B5 /* MozendaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A21D122973ACB004980B5 /* MozendaAppTests.swift */; };
 		964A21DD22973ACB004980B5 /* MozendaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A21DC22973ACB004980B5 /* MozendaAppUITests.swift */; };
+		96C97312229899F200D22B29 /* AgentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C97311229899F200D22B29 /* AgentListViewController.swift */; };
 		B48E9D6527A27CFAAB070581 /* Pods_MozendaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE2ED551673C3F65F559FEA /* Pods_MozendaAppUITests.framework */; };
 		C70036FEEF3247A44E74F714 /* Pods_MozendaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4357C5EAEB9554711BF139 /* Pods_MozendaApp.framework */; };
 		CEFE0F92C6B2736C621BB367 /* Pods_MozendaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CB23810F8C7E601A8BAF7D /* Pods_MozendaAppTests.framework */; };
@@ -55,6 +56,7 @@
 		964A21D822973ACB004980B5 /* MozendaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MozendaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964A21DC22973ACB004980B5 /* MozendaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MozendaAppUITests.swift; sourceTree = "<group>"; };
 		964A21DE22973ACB004980B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C97311229899F200D22B29 /* AgentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentListViewController.swift; sourceTree = "<group>"; };
 		AAE2ED551673C3F65F559FEA /* Pods_MozendaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MozendaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CB23810F8C7E601A8BAF7D /* Pods_MozendaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MozendaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7584B3CE66A611C1D2A91C5 /* Pods-MozendaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MozendaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MozendaAppUITests/Pods-MozendaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 				65F832897048554FBCE69EE1 /* Pods-MozendaAppUITests.debug.xcconfig */,
 				F7584B3CE66A611C1D2A91C5 /* Pods-MozendaAppUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 				964A21C322973ACB004980B5 /* Assets.xcassets */,
 				964A21C522973ACB004980B5 /* LaunchScreen.storyboard */,
 				964A21C822973ACB004980B5 /* Info.plist */,
+				96C97311229899F200D22B29 /* AgentListViewController.swift */,
 			);
 			path = MozendaApp;
 			sourceTree = "<group>";
@@ -389,6 +391,7 @@
 			files = (
 				964A21BF22973ACA004980B5 /* ViewController.swift in Sources */,
 				964A21BD22973ACA004980B5 /* AppDelegate.swift in Sources */,
+				96C97312229899F200D22B29 /* AgentListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,13 +568,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 776A638QZU;
+				DEVELOPMENT_TEAM = JLLV7F3JQ4;
 				INFOPLIST_FILE = MozendaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = work.davidmiller.MozendaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "work.davidmiller.Mozenda-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -584,13 +587,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 776A638QZU;
+				DEVELOPMENT_TEAM = JLLV7F3JQ4;
 				INFOPLIST_FILE = MozendaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = work.davidmiller.MozendaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "work.davidmiller.Mozenda-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -6,7 +6,7 @@ target 'MozendaApp' do
   # Pods for MozendaApp
   
   pod 'Firebase'
-  # pod 'MozendaSwift'
+  pod 'MozendaSwift', :path => '/Users/work/Repos/MozendaSwift'
 
   target 'MozendaAppTests' do
     inherit! :search_paths

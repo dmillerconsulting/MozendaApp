@@ -7,24 +7,52 @@
 //
 
 import UIKit
+import MozendaSwift
+import FirebaseAnalytics
+import SwiftyJSON
 
-class AgentListViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+class AgentListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    // MARK: - IBOutlets
+    @IBOutlet var agentTableView: UITableView!
+    
+    // MARK: - Properties
+    var agents: [Agent] = [] {
+        didSet {
+            DispatchQueue.main.async {
+                self.agentTableView.reloadData()
+            }
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: - Lifecycle Functions
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        AgentService.getAgentList { (agents) in
+            self.agents = agents
+        }
     }
-    */
-
+    
+    // MARK: - Delegate methods
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return agents.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = self.agentTableView.dequeueReusableCell(withIdentifier: "agentCell", for: indexPath)
+        
+        cell.textLabel?.text = self.agents[indexPath.row].name
+        cell.detailTextLabel?.text = String(self.agents[indexPath.row].agentId)
+        
+        return cell
+    }
+    
+    // MARK: - Navigation Methods
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+    }
+    
+    // MARK: - Business Logic
+    
+    // MARK: - IBActions
 }
