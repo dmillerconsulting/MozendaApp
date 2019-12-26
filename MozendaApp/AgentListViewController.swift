@@ -27,6 +27,7 @@ class AgentListViewController: UIViewController, UITableViewDelegate, UITableVie
     // MARK: - Lifecycle Functions
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.agentTableView.tableFooterView = UIView()
         
         AgentService.getAgentList { (agents) in
             self.agents = agents
@@ -39,10 +40,9 @@ class AgentListViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = self.agentTableView.dequeueReusableCell(withIdentifier: "agentCell", for: indexPath)
+        guard let cell = self.agentTableView.dequeueReusableCell(withIdentifier: "agentCell", for: indexPath) as? AgentTableViewCell else { return UITableViewCell() }
         
-        cell.textLabel?.text = self.agents[indexPath.row].name
-        cell.detailTextLabel?.text = String(self.agents[indexPath.row].agentId)
+        cell.agent = agents[indexPath.row]
         
         return cell
     }

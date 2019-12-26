@@ -14,6 +14,7 @@
 		964A21C722973ACB004980B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964A21C522973ACB004980B5 /* LaunchScreen.storyboard */; };
 		964A21D222973ACB004980B5 /* MozendaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A21D122973ACB004980B5 /* MozendaAppTests.swift */; };
 		964A21DD22973ACB004980B5 /* MozendaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A21DC22973ACB004980B5 /* MozendaAppUITests.swift */; };
+		96B9762922E0E7E3003E1A82 /* AgentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9762822E0E7E3003E1A82 /* AgentTableViewCell.swift */; };
 		96C97312229899F200D22B29 /* AgentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C97311229899F200D22B29 /* AgentListViewController.swift */; };
 		B48E9D6527A27CFAAB070581 /* Pods_MozendaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE2ED551673C3F65F559FEA /* Pods_MozendaAppUITests.framework */; };
 		C70036FEEF3247A44E74F714 /* Pods_MozendaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4357C5EAEB9554711BF139 /* Pods_MozendaApp.framework */; };
@@ -56,6 +57,7 @@
 		964A21D822973ACB004980B5 /* MozendaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MozendaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964A21DC22973ACB004980B5 /* MozendaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MozendaAppUITests.swift; sourceTree = "<group>"; };
 		964A21DE22973ACB004980B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B9762822E0E7E3003E1A82 /* AgentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentTableViewCell.swift; sourceTree = "<group>"; };
 		96C97311229899F200D22B29 /* AgentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentListViewController.swift; sourceTree = "<group>"; };
 		AAE2ED551673C3F65F559FEA /* Pods_MozendaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MozendaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CB23810F8C7E601A8BAF7D /* Pods_MozendaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MozendaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +148,7 @@
 				964A21C522973ACB004980B5 /* LaunchScreen.storyboard */,
 				964A21C822973ACB004980B5 /* Info.plist */,
 				96C97311229899F200D22B29 /* AgentListViewController.swift */,
+				96B9762822E0E7E3003E1A82 /* AgentTableViewCell.swift */,
 			);
 			path = MozendaApp;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				964A21BF22973ACA004980B5 /* ViewController.swift in Sources */,
+				96B9762922E0E7E3003E1A82 /* AgentTableViewCell.swift in Sources */,
 				964A21BD22973ACA004980B5 /* AppDelegate.swift in Sources */,
 				96C97312229899F200D22B29 /* AgentListViewController.swift in Sources */,
 			);
