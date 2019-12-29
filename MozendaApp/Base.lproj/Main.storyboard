@@ -43,7 +43,7 @@
                                 </constraints>
                                 <state key="normal" title="Log In"/>
                                 <connections>
-                                    <segue destination="TYZ-My-MMO" kind="show" identifier="toMainScreen" id="3Cd-da-t8q"/>
+                                    <segue destination="TYZ-My-MMO" kind="show" identifier="toAgentList" id="3Cd-da-t8q"/>
                                 </connections>
                             </button>
                         </subviews>
