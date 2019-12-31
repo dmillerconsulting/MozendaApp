@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MozendaSwift
 
 class ViewController: UIViewController {
 

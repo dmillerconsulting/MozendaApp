@@ -7,9 +7,7 @@
 //
 
 import UIKit
-import MozendaSwift
 import FirebaseAnalytics
-import SwiftyJSON
 
 class AgentListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     // MARK: - IBOutlets
@@ -29,9 +27,6 @@ class AgentListViewController: UIViewController, UITableViewDelegate, UITableVie
         super.viewDidLoad()
         self.agentTableView.tableFooterView = UIView()
         
-        AgentService.getAgentList { (agents) in
-            self.agents = agents
-        }
     }
     
     // MARK: - Delegate methods

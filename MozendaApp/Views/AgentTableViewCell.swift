@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MozendaSwift
 
 class AgentTableViewCell: UITableViewCell {
     @IBOutlet weak var agentNameLabel: UILabel!

@@ -43,7 +43,7 @@
                                 </constraints>
                                 <state key="normal" title="Log In"/>
                                 <connections>
-                                    <segue destination="TYZ-My-MMO" kind="show" identifier="toAgentList" id="3Cd-da-t8q"/>
+                                    <segue destination="6UG-C9-xy6" kind="show" id="Zuh-7Q-Nxr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -64,9 +64,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
         </scene>
-        <!--Agent List View Controller-->
+        <!--Item-->
         <scene sceneID="wco-Iz-kkl">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G66-HG-1eA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="HID-1A-CsX" customClass="AgentListViewController" customModule="MozendaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2uN-a2-Lju">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -135,32 +136,65 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DBm-b5-BHi"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="cYW-fR-7c9"/>
                     <navigationItem key="navigationItem" id="B6A-2q-Qhr"/>
                     <connections>
                         <outlet property="agentTableView" destination="Hf0-KW-ZSJ" id="mmg-9U-gsl"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="G66-HG-1eA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1831.8840579710147" y="138.61607142857142"/>
+            <point key="canvasLocation" x="2042" y="139"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="GJC-9O-S5P">
+        <!--Item-->
+        <scene sceneID="gFm-ra-DyN">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TYZ-My-MMO" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2Zi-c1-9EN">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="HID-1A-CsX" kind="relationship" relationship="rootViewController" id="d7v-lc-pCF"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="N60-Kz-Sug" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="HLm-kh-rp0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v6q-uV-uZH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3x5-KS-cFA"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="MZ3-ZR-IGM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yKa-m6-4Cq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="975" y="139"/>
+            <point key="canvasLocation" x="2041" y="-586"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="kXp-6S-ok3">
+            <objects>
+                <viewController id="xcH-iO-5ZV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X3I-OK-Kfm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sZB-Nv-lgO"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="cfO-wf-MxA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cPH-x1-mjC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2041" y="921"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="wPa-no-zuX">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6UG-C9-xy6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qqw-re-D0U">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="HID-1A-CsX" kind="relationship" relationship="viewControllers" id="t78-lZ-Kf4"/>
+                        <segue destination="HLm-kh-rp0" kind="relationship" relationship="viewControllers" id="3D6-Ax-58K"/>
+                        <segue destination="xcH-iO-5ZV" kind="relationship" relationship="viewControllers" id="f2Q-FL-mcZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ao-2H-xPb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="890" y="139"/>
         </scene>
     </scenes>
 </document>
