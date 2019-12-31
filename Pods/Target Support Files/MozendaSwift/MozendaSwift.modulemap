@@ -1,6 +1,0 @@
-framework module MozendaSwift {
-  umbrella header "MozendaSwift-umbrella.h"
-
-  export *
-  module * { export * }
-}

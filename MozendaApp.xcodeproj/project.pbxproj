@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		63300DED23B9374600A9EF90 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63300DEC23B9374600A9EF90 /* NetworkController.swift */; };
+		633E0B6523BBECE600ABD073 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B6423BBECE600ABD073 /* Agent.swift */; };
+		633E0B6723BBECE900ABD073 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B6623BBECE900ABD073 /* Agent.swift */; };
+		633E0B6A23BBECFF00ABD073 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B6923BBECFF00ABD073 /* Job.swift */; };
+		633E0B6C23BBED0800ABD073 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B6B23BBED0800ABD073 /* NetworkController.swift */; };
+		633E0B6E23BBED0D00ABD073 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B6D23BBED0D00ABD073 /* Status.swift */; };
+		633E0B7223BBED1800ABD073 /* AgentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B7023BBED1800ABD073 /* AgentService.swift */; };
+		633E0B7323BBED1800ABD073 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B6F23BBED1800ABD073 /* APIService.swift */; };
+		633E0B7423BBED1800ABD073 /* JobService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B7123BBED1800ABD073 /* JobService.swift */; };
 		964A21BD22973ACA004980B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A21BC22973ACA004980B5 /* AppDelegate.swift */; };
 		964A21BF22973ACA004980B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A21BE22973ACA004980B5 /* ViewController.swift */; };
 		964A21C222973ACA004980B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964A21C022973ACA004980B5 /* Main.storyboard */; };
@@ -17,9 +25,6 @@
 		964A21DD22973ACB004980B5 /* MozendaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A21DC22973ACB004980B5 /* MozendaAppUITests.swift */; };
 		96B9762922E0E7E3003E1A82 /* AgentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9762822E0E7E3003E1A82 /* AgentTableViewCell.swift */; };
 		96C97312229899F200D22B29 /* AgentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C97311229899F200D22B29 /* AgentListViewController.swift */; };
-		B48E9D6527A27CFAAB070581 /* Pods_MozendaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE2ED551673C3F65F559FEA /* Pods_MozendaAppUITests.framework */; };
-		C70036FEEF3247A44E74F714 /* Pods_MozendaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4357C5EAEB9554711BF139 /* Pods_MozendaApp.framework */; };
-		CEFE0F92C6B2736C621BB367 /* Pods_MozendaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CB23810F8C7E601A8BAF7D /* Pods_MozendaAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A4FF1616753CF149A59FB17 /* Pods-MozendaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MozendaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MozendaAppTests/Pods-MozendaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0ED240B3A03BD34F17797582 /* Pods-MozendaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MozendaApp.debug.xcconfig"; path = "Target Support Files/Pods-MozendaApp/Pods-MozendaApp.debug.xcconfig"; sourceTree = "<group>"; };
-		3F3C2BC564EE0943D3823165 /* Pods-MozendaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MozendaApp.release.xcconfig"; path = "Target Support Files/Pods-MozendaApp/Pods-MozendaApp.release.xcconfig"; sourceTree = "<group>"; };
 		63300DEC23B9374600A9EF90 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
-		65F832897048554FBCE69EE1 /* Pods-MozendaAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MozendaAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MozendaAppUITests/Pods-MozendaAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6C4357C5EAEB9554711BF139 /* Pods_MozendaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MozendaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633E0B6423BBECE600ABD073 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Agent.swift; path = ../../../../../David/Repos/MozendaSwift/MozendaSwift/Pod/Agent.swift; sourceTree = "<group>"; };
+		633E0B6623BBECE900ABD073 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Agent.swift; path = ../../../../David/Repos/MozendaSwift/MozendaSwift/Pod/Agent.swift; sourceTree = "<group>"; };
+		633E0B6823BBECEB00ABD073 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		633E0B6923BBECFF00ABD073 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Job.swift; path = ../../../../../David/Repos/MozendaSwift/MozendaSwift/Pod/Job.swift; sourceTree = "<group>"; };
+		633E0B6B23BBED0800ABD073 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = ../../../../../David/Repos/MozendaSwift/MozendaSwift/Pod/NetworkController.swift; sourceTree = "<group>"; };
+		633E0B6D23BBED0D00ABD073 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Status.swift; path = ../../../../../David/Repos/MozendaSwift/MozendaSwift/Pod/Status.swift; sourceTree = "<group>"; };
+		633E0B6F23BBED1800ABD073 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = ../../../../../David/Repos/MozendaSwift/MozendaSwift/Pod/APIService.swift; sourceTree = "<group>"; };
+		633E0B7023BBED1800ABD073 /* AgentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AgentService.swift; path = ../../../../../David/Repos/MozendaSwift/MozendaSwift/Pod/AgentService.swift; sourceTree = "<group>"; };
+		633E0B7123BBED1800ABD073 /* JobService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JobService.swift; path = ../../../../../David/Repos/MozendaSwift/MozendaSwift/Pod/JobService.swift; sourceTree = "<group>"; };
+		633E0B7523BBED1D00ABD073 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		633E0B7623BBED1D00ABD073 /* AgentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentService.swift; sourceTree = "<group>"; };
+		633E0B7723BBED1D00ABD073 /* JobService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobService.swift; sourceTree = "<group>"; };
 		964A21B922973ACA004980B5 /* MozendaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MozendaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964A21BC22973ACA004980B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		964A21BE22973ACA004980B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,10 +73,6 @@
 		964A21DE22973ACB004980B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96B9762822E0E7E3003E1A82 /* AgentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentTableViewCell.swift; sourceTree = "<group>"; };
 		96C97311229899F200D22B29 /* AgentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentListViewController.swift; sourceTree = "<group>"; };
-		AAE2ED551673C3F65F559FEA /* Pods_MozendaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MozendaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1CB23810F8C7E601A8BAF7D /* Pods_MozendaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MozendaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7584B3CE66A611C1D2A91C5 /* Pods-MozendaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MozendaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MozendaAppUITests/Pods-MozendaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FE8810177E0CDE402C977540 /* Pods-MozendaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MozendaAppTests.release.xcconfig"; path = "Target Support Files/Pods-MozendaAppTests/Pods-MozendaAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70036FEEF3247A44E74F714 /* Pods_MozendaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFE0F92C6B2736C621BB367 /* Pods_MozendaAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,30 +94,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B48E9D6527A27CFAAB070581 /* Pods_MozendaAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4879C39CC621F782BD825430 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6C4357C5EAEB9554711BF139 /* Pods_MozendaApp.framework */,
-				B1CB23810F8C7E601A8BAF7D /* Pods_MozendaAppTests.framework */,
-				AAE2ED551673C3F65F559FEA /* Pods_MozendaAppUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		63300DE623B936A500A9EF90 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				633E0B7023BBED1800ABD073 /* AgentService.swift */,
+				633E0B6F23BBED1800ABD073 /* APIService.swift */,
+				633E0B7123BBED1800ABD073 /* JobService.swift */,
 				63300DEC23B9374600A9EF90 /* NetworkController.swift */,
 				964A21BC22973ACA004980B5 /* AppDelegate.swift */,
+				633E0B6B23BBED0800ABD073 /* NetworkController.swift */,
 				964A21C322973ACB004980B5 /* Assets.xcassets */,
-				964A21C822973ACB004980B5 /* Info.plist */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -127,6 +125,7 @@
 		63300DE823B936CF00A9EF90 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				633E0B6423BBECE600ABD073 /* Agent.swift */,
 				96C97311229899F200D22B29 /* AgentListViewController.swift */,
 				964A21BE22973ACA004980B5 /* ViewController.swift */,
 			);
@@ -142,15 +141,29 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		633E0B6223BBECAD00ABD073 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				633E0B6823BBECEB00ABD073 /* Agent.swift */,
+				633E0B6923BBECFF00ABD073 /* Job.swift */,
+				633E0B6D23BBED0D00ABD073 /* Status.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		633E0B6323BBECC600ABD073 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				633E0B7623BBED1D00ABD073 /* AgentService.swift */,
+				633E0B7523BBED1D00ABD073 /* APIService.swift */,
+				633E0B7723BBED1D00ABD073 /* JobService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		87C2C6541AA20E330374A3E7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0ED240B3A03BD34F17797582 /* Pods-MozendaApp.debug.xcconfig */,
-				3F3C2BC564EE0943D3823165 /* Pods-MozendaApp.release.xcconfig */,
-				0A4FF1616753CF149A59FB17 /* Pods-MozendaAppTests.debug.xcconfig */,
-				FE8810177E0CDE402C977540 /* Pods-MozendaAppTests.release.xcconfig */,
-				65F832897048554FBCE69EE1 /* Pods-MozendaAppUITests.debug.xcconfig */,
-				F7584B3CE66A611C1D2A91C5 /* Pods-MozendaAppUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -163,7 +176,6 @@
 				964A21DB22973ACB004980B5 /* MozendaAppUITests */,
 				964A21BA22973ACA004980B5 /* Products */,
 				87C2C6541AA20E330374A3E7 /* Pods */,
-				4879C39CC621F782BD825430 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +192,9 @@
 		964A21BB22973ACA004980B5 /* MozendaApp */ = {
 			isa = PBXGroup;
 			children = (
+				964A21C822973ACB004980B5 /* Info.plist */,
+				633E0B6323BBECC600ABD073 /* Services */,
+				633E0B6223BBECAD00ABD073 /* Models */,
 				63300DE923B936F500A9EF90 /* Storyboards */,
 				63300DE823B936CF00A9EF90 /* View Controllers */,
 				63300DE723B936C600A9EF90 /* Views */,
@@ -200,6 +215,7 @@
 		964A21DB22973ACB004980B5 /* MozendaAppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				633E0B6623BBECE900ABD073 /* Agent.swift */,
 				964A21DC22973ACB004980B5 /* MozendaAppUITests.swift */,
 				964A21DE22973ACB004980B5 /* Info.plist */,
 			);
@@ -213,11 +229,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 964A21E122973ACB004980B5 /* Build configuration list for PBXNativeTarget "MozendaApp" */;
 			buildPhases = (
-				14656AD7359201F317C02D5D /* [CP] Check Pods Manifest.lock */,
 				964A21B522973ACA004980B5 /* Sources */,
 				964A21B622973ACA004980B5 /* Frameworks */,
 				964A21B722973ACA004980B5 /* Resources */,
-				E17CF60700F67B29A6C5E8E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +246,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 964A21E422973ACB004980B5 /* Build configuration list for PBXNativeTarget "MozendaAppTests" */;
 			buildPhases = (
-				429EB47C7A2B4A49A3DD63C3 /* [CP] Check Pods Manifest.lock */,
 				964A21C922973ACB004980B5 /* Sources */,
 				964A21CA22973ACB004980B5 /* Frameworks */,
 				964A21CB22973ACB004980B5 /* Resources */,
@@ -251,7 +264,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 964A21E722973ACB004980B5 /* Build configuration list for PBXNativeTarget "MozendaAppUITests" */;
 			buildPhases = (
-				9A07C311F955D4B05EF5BE44 /* [CP] Check Pods Manifest.lock */,
 				964A21D422973ACB004980B5 /* Sources */,
 				964A21D522973ACB004980B5 /* Frameworks */,
 				964A21D622973ACB004980B5 /* Resources */,
@@ -336,101 +348,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		14656AD7359201F317C02D5D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MozendaApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		429EB47C7A2B4A49A3DD63C3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MozendaAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A07C311F955D4B05EF5BE44 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MozendaAppUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E17CF60700F67B29A6C5E8E0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MozendaApp/Pods-MozendaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MozendaApp/Pods-MozendaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MozendaApp/Pods-MozendaApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		964A21B522973ACA004980B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633E0B6C23BBED0800ABD073 /* NetworkController.swift in Sources */,
+				633E0B7223BBED1800ABD073 /* AgentService.swift in Sources */,
 				63300DED23B9374600A9EF90 /* NetworkController.swift in Sources */,
 				964A21BF22973ACA004980B5 /* ViewController.swift in Sources */,
+				633E0B7323BBED1800ABD073 /* APIService.swift in Sources */,
 				96B9762922E0E7E3003E1A82 /* AgentTableViewCell.swift in Sources */,
+				633E0B6523BBECE600ABD073 /* Agent.swift in Sources */,
+				633E0B7423BBED1800ABD073 /* JobService.swift in Sources */,
+				633E0B6E23BBED0D00ABD073 /* Status.swift in Sources */,
 				964A21BD22973ACA004980B5 /* AppDelegate.swift in Sources */,
+				633E0B6A23BBECFF00ABD073 /* Job.swift in Sources */,
 				96C97312229899F200D22B29 /* AgentListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				964A21DD22973ACB004980B5 /* MozendaAppUITests.swift in Sources */,
+				633E0B6723BBECE900ABD073 /* Agent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,7 +538,6 @@
 		};
 		964A21E222973ACB004980B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ED240B3A03BD34F17797582 /* Pods-MozendaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -623,7 +556,6 @@
 		};
 		964A21E322973ACB004980B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3C2BC564EE0943D3823165 /* Pods-MozendaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -642,7 +574,6 @@
 		};
 		964A21E522973ACB004980B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A4FF1616753CF149A59FB17 /* Pods-MozendaAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -664,7 +595,6 @@
 		};
 		964A21E622973ACB004980B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE8810177E0CDE402C977540 /* Pods-MozendaAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -686,7 +616,6 @@
 		};
 		964A21E822973ACB004980B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65F832897048554FBCE69EE1 /* Pods-MozendaAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -707,7 +636,6 @@
 		};
 		964A21E922973ACB004980B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7584B3CE66A611C1D2A91C5 /* Pods-MozendaAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
