@@ -11,6 +11,7 @@
 		633E0B6723BBECE900ABD073 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B6623BBECE900ABD073 /* Agent.swift */; };
 		633E0B6A23BBECFF00ABD073 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B6923BBECFF00ABD073 /* Job.swift */; };
 		633E0B6E23BBED0D00ABD073 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B6D23BBED0D00ABD073 /* Status.swift */; };
+		636B121823BC07DF00437017 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B121723BC07DF00437017 /* APIService.swift */; };
 		6B5C703E4E57B82064C6766D /* Pods_MozendaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89654969C74C2B3AB119422D /* Pods_MozendaApp.framework */; };
 		856BF7EC80230C01471D1209 /* Pods_MozendaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F71FC36B0BDAC3809A74C6 /* Pods_MozendaAppTests.framework */; };
 		94A8E4122C8A211694C4B00A /* Pods_MozendaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2B7425F0A348448471544B /* Pods_MozendaAppUITests.framework */; };
@@ -50,9 +51,9 @@
 		633E0B6823BBECEB00ABD073 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
 		633E0B6923BBECFF00ABD073 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Job.swift; path = ../../../../../David/Repos/MozendaSwift/MozendaSwift/Pod/Job.swift; sourceTree = "<group>"; };
 		633E0B6D23BBED0D00ABD073 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Status.swift; path = ../../../../../David/Repos/MozendaSwift/MozendaSwift/Pod/Status.swift; sourceTree = "<group>"; };
-		633E0B7523BBED1D00ABD073 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		633E0B7623BBED1D00ABD073 /* AgentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentService.swift; sourceTree = "<group>"; };
 		633E0B7723BBED1D00ABD073 /* JobService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobService.swift; sourceTree = "<group>"; };
+		636B121723BC07DF00437017 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		89654969C74C2B3AB119422D /* Pods_MozendaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MozendaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		964A21B922973ACA004980B5 /* MozendaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MozendaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964A21BC22973ACA004980B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -165,8 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				633E0B7623BBED1D00ABD073 /* AgentService.swift */,
-				633E0B7523BBED1D00ABD073 /* APIService.swift */,
 				633E0B7723BBED1D00ABD073 /* JobService.swift */,
+				636B121723BC07DF00437017 /* APIService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -466,6 +467,7 @@
 				633E0B6E23BBED0D00ABD073 /* Status.swift in Sources */,
 				964A21BD22973ACA004980B5 /* AppDelegate.swift in Sources */,
 				633E0B6A23BBECFF00ABD073 /* Job.swift in Sources */,
+				636B121823BC07DF00437017 /* APIService.swift in Sources */,
 				96C97312229899F200D22B29 /* AgentListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
