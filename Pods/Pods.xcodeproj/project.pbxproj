@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034B4EFD8864AC3C2BBDE12BA06C0BC9 /* SN+GetMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82267EF8E847B47FFED10F535E876E5C /* SN+GetMethods.swift */; };
+		070A85906891AD699383A2A4F6BBD559 /* Pods-Mozenda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 567C6D7520405C94BCA499B090B3B292 /* Pods-Mozenda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DB6882EB914F03106102A5956DF9D0C /* SimpleNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F33265CD25129235DEA6BB00A68AE8 /* SimpleNetworking.swift */; };
+		3CBF28EF868180FF065AA65AC746216D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4E3665643C92133F16F738457112CD9E /* SN+PostMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53D7FD1F9D07045686BE2CF643E7B3 /* SN+PostMethods.swift */; };
+		5430573B766D4F0599D089C7311A765A /* Pods-Mozenda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB905A221CEFCA3380EF029FCBED378 /* Pods-Mozenda-dummy.m */; };
+		609575B8325274F038640EB804B2EE7B /* Simple-Networking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F87895B47BAD83BFB481E9DA25EE7C4 /* Simple-Networking-dummy.m */; };
+		637F6F34EDF507A20F4A723AB1DBEC52 /* NSURLSessionPinningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C86AA1B5DC98E04BDDAF440D0F1188 /* NSURLSessionPinningDelegate.swift */; };
+		6AAD726FE2450DB218F07E9946700889 /* RequestMethodTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649848CECCB08FD7953E06F82ED18DCD /* RequestMethodTypes.swift */; };
+		74FEBB6CECECC869955D5316A60C1AE1 /* SSLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563BD02ED36AD79AF3669CF0A8AFE11 /* SSLConfig.swift */; };
+		8791DD0EBC08FBC4AAB78EA354184969 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986A7E201735AE4E21393969BEFDCCC /* Requests.swift */; };
+		9A69C06A1574DF2AF0DAE903E9316952 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09556D2E2495FCBDDA4DE28B00BB0E6D /* Errors.swift */; };
+		9D5492F61B72848F702696223B535A43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AB6ED1E7D7B254AD3A16A9F9F998A7EC /* SN+DeleteMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC478B796BB9B88EFBE3F1C383BF1 /* SN+DeleteMethods.swift */; };
+		ACA5D74CB2A0C714650A8236D6400377 /* Pods-MozendaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F14132BB877D8B3F0AD3DD3860455C /* Pods-MozendaTests-dummy.m */; };
+		B32A913618F55EC8117DA5A44D5D28E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BF847547ED1FC1E99EDB652859F27A40 /* DebugMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69DB3958140E3C87C2BB2C1FD600A11 /* DebugMode.swift */; };
+		C4EDB85D8691EA5D754A141D373B1B99 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C728410A208B440A2F28B0A71DFFA8 /* Validator.swift */; };
+		D65886D50DE190D83EC9DB8FB521AF48 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347A8ACEB39E9D5514DD93A8B69D14A /* Thread.swift */; };
+		DCDC13BEC44641C85AADE875FC5D6BB7 /* SN+PutMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C780D450CC21BDD43C48907CA61754 /* SN+PutMethods.swift */; };
+		E0D7190B2740B558EC2C461F4661F316 /* ResultBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB37D21693C7A49D04E93F06DC9937D /* ResultBlocks.swift */; };
+		E5FAF9609B2E89B52159C00ECE6B6629 /* SN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAA9B05F862C25D846C421DA5EBCC3 /* SN.swift */; };
+		E8E0129CA3D1EEB50BC9E8C2FB0A300C /* Pods-MozendaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0702F5A301AF895D9FF48B2552CBD587 /* Pods-MozendaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FABC121FDCCED3CB908B6EF2A70D13DE /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6FC7C7ED9235AD38F11A821C74ED8 /* Encodable+Extensions.swift */; };
+		FC746026F3B5C10769A4E15D2A4FA947 /* Simple-Networking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3EA663F626C8B462AFF1A4DF8A7C4D0 /* Simple-Networking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB366739CBA7EC23BDB16C075F24C0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80667B158771BA03CC68C33EFF9F3658;
+			remoteInfo = "Simple-Networking";
+		};
+		C47E51DAD17BA7E992EB04BF7574E4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C910DD03E2CE4BB9ED56CE5E104F7798;
+			remoteInfo = "Pods-Mozenda";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0702F5A301AF895D9FF48B2552CBD587 /* Pods-MozendaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MozendaTests-umbrella.h"; sourceTree = "<group>"; };
+		09556D2E2495FCBDDA4DE28B00BB0E6D /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = SimpleNetworking/SimpleNetworking/Source/Helpers/Errors.swift; sourceTree = "<group>"; };
+		0E34B7ABD3029C056D2558046B8A8823 /* Pods-MozendaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MozendaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12D7F64DE0B61BB21A48475804A4F3FA /* Pods-MozendaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MozendaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		14B2B93795636B7D846BB12D61BD1ED7 /* Pods-MozendaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MozendaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		193F3BE99FF03FEFB30D0FA851B34824 /* Simple-Networking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Simple-Networking-prefix.pch"; sourceTree = "<group>"; };
+		1D1DCE8222D33C9EA8108A97A83F7EFE /* Pods-Mozenda-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mozenda-acknowledgements.plist"; sourceTree = "<group>"; };
+		26C118323713FF8A8F9C5193228913BB /* Pods-Mozenda.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mozenda.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5037AF8EEC008E106B099B976894C706 /* Simple-Networking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Simple-Networking.modulemap"; sourceTree = "<group>"; };
+		55C86AA1B5DC98E04BDDAF440D0F1188 /* NSURLSessionPinningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSURLSessionPinningDelegate.swift; path = SimpleNetworking/SimpleNetworking/Source/Helpers/NSURLSessionPinningDelegate.swift; sourceTree = "<group>"; };
+		567C6D7520405C94BCA499B090B3B292 /* Pods-Mozenda-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mozenda-umbrella.h"; sourceTree = "<group>"; };
+		5BB905A221CEFCA3380EF029FCBED378 /* Pods-Mozenda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mozenda-dummy.m"; sourceTree = "<group>"; };
+		5CE7791BD75261302324A0DCCCD00324 /* Pods-MozendaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MozendaTests-Info.plist"; sourceTree = "<group>"; };
+		5ED6FC7C7ED9235AD38F11A821C74ED8 /* Encodable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Encodable+Extensions.swift"; path = "SimpleNetworking/SimpleNetworking/Source/Extensions/Encodable+Extensions.swift"; sourceTree = "<group>"; };
+		61C780D450CC21BDD43C48907CA61754 /* SN+PutMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SN+PutMethods.swift"; path = "SimpleNetworking/SimpleNetworking/Source/Extensions/SN+PutMethods.swift"; sourceTree = "<group>"; };
+		61F14132BB877D8B3F0AD3DD3860455C /* Pods-MozendaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MozendaTests-dummy.m"; sourceTree = "<group>"; };
+		649848CECCB08FD7953E06F82ED18DCD /* RequestMethodTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestMethodTypes.swift; path = SimpleNetworking/SimpleNetworking/Source/Helpers/RequestMethodTypes.swift; sourceTree = "<group>"; };
+		6AB37D21693C7A49D04E93F06DC9937D /* ResultBlocks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultBlocks.swift; path = SimpleNetworking/SimpleNetworking/Source/Helpers/ResultBlocks.swift; sourceTree = "<group>"; };
+		6EF6DB11575B9A5C404F53DBB75F6AE3 /* Pods-Mozenda-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mozenda-Info.plist"; sourceTree = "<group>"; };
+		6F87895B47BAD83BFB481E9DA25EE7C4 /* Simple-Networking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Simple-Networking-dummy.m"; sourceTree = "<group>"; };
+		82267EF8E847B47FFED10F535E876E5C /* SN+GetMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SN+GetMethods.swift"; path = "SimpleNetworking/SimpleNetworking/Source/Extensions/SN+GetMethods.swift"; sourceTree = "<group>"; };
+		87EAA9B05F862C25D846C421DA5EBCC3 /* SN.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SN.swift; path = SimpleNetworking/SimpleNetworking/Source/SN.swift; sourceTree = "<group>"; };
+		8986A7E201735AE4E21393969BEFDCCC /* Requests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requests.swift; path = SimpleNetworking/SimpleNetworking/Source/Helpers/Requests.swift; sourceTree = "<group>"; };
+		8CA0F1DB1109789664BFF597E955E1BC /* Simple-Networking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Simple-Networking.xcconfig"; sourceTree = "<group>"; };
+		8F1BC478B796BB9B88EFBE3F1C383BF1 /* SN+DeleteMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SN+DeleteMethods.swift"; path = "SimpleNetworking/SimpleNetworking/Source/Extensions/SN+DeleteMethods.swift"; sourceTree = "<group>"; };
+		9563BD02ED36AD79AF3669CF0A8AFE11 /* SSLConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLConfig.swift; path = SimpleNetworking/SimpleNetworking/Source/Helpers/SSLConfig.swift; sourceTree = "<group>"; };
+		99C8026B1E9E5EF667771E382B203950 /* Pods_Mozenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mozenda.framework; path = "Pods-Mozenda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9EEB52B56E0187562F00669A1724D6 /* Pods-Mozenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mozenda.release.xcconfig"; sourceTree = "<group>"; };
+		9ED5A14F820FC028416B6D827EE9AF67 /* Simple_Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Simple_Networking.framework; path = "Simple-Networking.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B261D44BC28CF858363AE632ACDDBE73 /* Simple-Networking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Simple-Networking-Info.plist"; sourceTree = "<group>"; };
+		B7C728410A208B440A2F28B0A71DFFA8 /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = SimpleNetworking/SimpleNetworking/Source/Helpers/Validator.swift; sourceTree = "<group>"; };
+		C44DFD1658349E346E7243FA2633C01D /* Pods_MozendaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MozendaTests.framework; path = "Pods-MozendaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF53D7FD1F9D07045686BE2CF643E7B3 /* SN+PostMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SN+PostMethods.swift"; path = "SimpleNetworking/SimpleNetworking/Source/Extensions/SN+PostMethods.swift"; sourceTree = "<group>"; };
+		D3875F768DD35DB6B63755D41E366FB2 /* Pods-MozendaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MozendaTests.release.xcconfig"; sourceTree = "<group>"; };
+		D69DB3958140E3C87C2BB2C1FD600A11 /* DebugMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugMode.swift; path = SimpleNetworking/SimpleNetworking/Source/Helpers/DebugMode.swift; sourceTree = "<group>"; };
+		DCC92873ADBB99F6C5FC2925616FFF31 /* Pods-Mozenda-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mozenda-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E347A8ACEB39E9D5514DD93A8B69D14A /* Thread.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thread.swift; path = SimpleNetworking/SimpleNetworking/Source/Helpers/Thread.swift; sourceTree = "<group>"; };
+		E9F33265CD25129235DEA6BB00A68AE8 /* SimpleNetworking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleNetworking.swift; path = SimpleNetworking/SimpleNetworking/Source/SimpleNetworking.swift; sourceTree = "<group>"; };
+		EC8C380CB4B1640B3473F18D5AC04E28 /* Pods-Mozenda-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mozenda-frameworks.sh"; sourceTree = "<group>"; };
+		F0FA222DAC6EA6DBB3E49438C211F6BA /* Pods-MozendaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MozendaTests.modulemap"; sourceTree = "<group>"; };
+		F10A284EDBB337BE7E5686F97493B334 /* Pods-Mozenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mozenda.debug.xcconfig"; sourceTree = "<group>"; };
+		F3EA663F626C8B462AFF1A4DF8A7C4D0 /* Simple-Networking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Simple-Networking-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36FE0F25D9346EEC4089656DBE6AFFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBF28EF868180FF065AA65AC746216D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AC0724658C0393233418F53D5D048B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32A913618F55EC8117DA5A44D5D28E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE36882601FC0A32FE1BFAA45698A916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5492F61B72848F702696223B535A43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078183701B26BBF0125E9B3060F5B1BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5037AF8EEC008E106B099B976894C706 /* Simple-Networking.modulemap */,
+				8CA0F1DB1109789664BFF597E955E1BC /* Simple-Networking.xcconfig */,
+				6F87895B47BAD83BFB481E9DA25EE7C4 /* Simple-Networking-dummy.m */,
+				B261D44BC28CF858363AE632ACDDBE73 /* Simple-Networking-Info.plist */,
+				193F3BE99FF03FEFB30D0FA851B34824 /* Simple-Networking-prefix.pch */,
+				F3EA663F626C8B462AFF1A4DF8A7C4D0 /* Simple-Networking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Simple-Networking";
+			sourceTree = "<group>";
+		};
+		104889305DA5AC94E55BCF651DAB6B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C8026B1E9E5EF667771E382B203950 /* Pods_Mozenda.framework */,
+				C44DFD1658349E346E7243FA2633C01D /* Pods_MozendaTests.framework */,
+				9ED5A14F820FC028416B6D827EE9AF67 /* Simple_Networking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE05AD09A178A5E058AD4A522838FC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5807A26CF9A15228856A3F841439FDFE /* Simple-Networking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EFABCC9EC61B90C710DC47B055BE37B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4F994B50FEC35D9F7419028F67B1AC /* Pods-Mozenda */,
+				4228BBB7DF230B560D1D97AAA256E702 /* Pods-MozendaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4228BBB7DF230B560D1D97AAA256E702 /* Pods-MozendaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0FA222DAC6EA6DBB3E49438C211F6BA /* Pods-MozendaTests.modulemap */,
+				14B2B93795636B7D846BB12D61BD1ED7 /* Pods-MozendaTests-acknowledgements.markdown */,
+				0E34B7ABD3029C056D2558046B8A8823 /* Pods-MozendaTests-acknowledgements.plist */,
+				61F14132BB877D8B3F0AD3DD3860455C /* Pods-MozendaTests-dummy.m */,
+				5CE7791BD75261302324A0DCCCD00324 /* Pods-MozendaTests-Info.plist */,
+				0702F5A301AF895D9FF48B2552CBD587 /* Pods-MozendaTests-umbrella.h */,
+				12D7F64DE0B61BB21A48475804A4F3FA /* Pods-MozendaTests.debug.xcconfig */,
+				D3875F768DD35DB6B63755D41E366FB2 /* Pods-MozendaTests.release.xcconfig */,
+			);
+			name = "Pods-MozendaTests";
+			path = "Target Support Files/Pods-MozendaTests";
+			sourceTree = "<group>";
+		};
+		5807A26CF9A15228856A3F841439FDFE /* Simple-Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D69DB3958140E3C87C2BB2C1FD600A11 /* DebugMode.swift */,
+				5ED6FC7C7ED9235AD38F11A821C74ED8 /* Encodable+Extensions.swift */,
+				09556D2E2495FCBDDA4DE28B00BB0E6D /* Errors.swift */,
+				55C86AA1B5DC98E04BDDAF440D0F1188 /* NSURLSessionPinningDelegate.swift */,
+				649848CECCB08FD7953E06F82ED18DCD /* RequestMethodTypes.swift */,
+				8986A7E201735AE4E21393969BEFDCCC /* Requests.swift */,
+				6AB37D21693C7A49D04E93F06DC9937D /* ResultBlocks.swift */,
+				E9F33265CD25129235DEA6BB00A68AE8 /* SimpleNetworking.swift */,
+				87EAA9B05F862C25D846C421DA5EBCC3 /* SN.swift */,
+				8F1BC478B796BB9B88EFBE3F1C383BF1 /* SN+DeleteMethods.swift */,
+				82267EF8E847B47FFED10F535E876E5C /* SN+GetMethods.swift */,
+				CF53D7FD1F9D07045686BE2CF643E7B3 /* SN+PostMethods.swift */,
+				61C780D450CC21BDD43C48907CA61754 /* SN+PutMethods.swift */,
+				9563BD02ED36AD79AF3669CF0A8AFE11 /* SSLConfig.swift */,
+				E347A8ACEB39E9D5514DD93A8B69D14A /* Thread.swift */,
+				B7C728410A208B440A2F28B0A71DFFA8 /* Validator.swift */,
+				078183701B26BBF0125E9B3060F5B1BC /* Support Files */,
+			);
+			name = "Simple-Networking";
+			path = "Simple-Networking";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD4F994B50FEC35D9F7419028F67B1AC /* Pods-Mozenda */ = {
+			isa = PBXGroup;
+			children = (
+				26C118323713FF8A8F9C5193228913BB /* Pods-Mozenda.modulemap */,
+				DCC92873ADBB99F6C5FC2925616FFF31 /* Pods-Mozenda-acknowledgements.markdown */,
+				1D1DCE8222D33C9EA8108A97A83F7EFE /* Pods-Mozenda-acknowledgements.plist */,
+				5BB905A221CEFCA3380EF029FCBED378 /* Pods-Mozenda-dummy.m */,
+				EC8C380CB4B1640B3473F18D5AC04E28 /* Pods-Mozenda-frameworks.sh */,
+				6EF6DB11575B9A5C404F53DBB75F6AE3 /* Pods-Mozenda-Info.plist */,
+				567C6D7520405C94BCA499B090B3B292 /* Pods-Mozenda-umbrella.h */,
+				F10A284EDBB337BE7E5686F97493B334 /* Pods-Mozenda.debug.xcconfig */,
+				9E9EEB52B56E0187562F00669A1724D6 /* Pods-Mozenda.release.xcconfig */,
+			);
+			name = "Pods-Mozenda";
+			path = "Target Support Files/Pods-Mozenda";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1FE05AD09A178A5E058AD4A522838FC3 /* Pods */,
+				104889305DA5AC94E55BCF651DAB6B26 /* Products */,
+				3EFABCC9EC61B90C710DC47B055BE37B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F9A291528D53C4838334514DABD4493 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC746026F3B5C10769A4E15D2A4FA947 /* Simple-Networking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FF89C34F72E767FFF5F01E504FBED5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E0129CA3D1EEB50BC9E8C2FB0A300C /* Pods-MozendaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C52E069271264EFBB521EB92836C0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070A85906891AD699383A2A4F6BBD559 /* Pods-Mozenda-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		625CF217E6A611438C2539E894497C9D /* Pods-MozendaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34BFF78B538E214318E69FFF3739978 /* Build configuration list for PBXNativeTarget "Pods-MozendaTests" */;
+			buildPhases = (
+				90FF89C34F72E767FFF5F01E504FBED5 /* Headers */,
+				08F2F0642D4C9303DEB3733A9B186337 /* Sources */,
+				36FE0F25D9346EEC4089656DBE6AFFF4 /* Frameworks */,
+				5846D7D925275B55D8138F4D7EF81939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4591E89D54C6306A64875E85DEDD3F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-MozendaTests";
+			productName = "Pods-MozendaTests";
+			productReference = C44DFD1658349E346E7243FA2633C01D /* Pods_MozendaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80667B158771BA03CC68C33EFF9F3658 /* Simple-Networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C4E6EAD6C9B1B4AAEBF966FCDF5786 /* Build configuration list for PBXNativeTarget "Simple-Networking" */;
+			buildPhases = (
+				4F9A291528D53C4838334514DABD4493 /* Headers */,
+				5A9ADDD342691F467054E200ACBBF0B0 /* Sources */,
+				CE36882601FC0A32FE1BFAA45698A916 /* Frameworks */,
+				0140A4B824A1031D8F55DA46785C4EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple-Networking";
+			productName = "Simple-Networking";
+			productReference = 9ED5A14F820FC028416B6D827EE9AF67 /* Simple_Networking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C910DD03E2CE4BB9ED56CE5E104F7798 /* Pods-Mozenda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A80FF9D5F61EE131D8C70575E7ACBB9 /* Build configuration list for PBXNativeTarget "Pods-Mozenda" */;
+			buildPhases = (
+				F6C52E069271264EFBB521EB92836C0B /* Headers */,
+				1A4D784CE1CA3E92C8F10342B762B8A1 /* Sources */,
+				73AC0724658C0393233418F53D5D048B /* Frameworks */,
+				F59171183FED2D0F9334642B15B89A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E017A3F1907ACF7A8673449003FD46E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Mozenda";
+			productName = "Pods-Mozenda";
+			productReference = 99C8026B1E9E5EF667771E382B203950 /* Pods_Mozenda.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 104889305DA5AC94E55BCF651DAB6B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C910DD03E2CE4BB9ED56CE5E104F7798 /* Pods-Mozenda */,
+				625CF217E6A611438C2539E894497C9D /* Pods-MozendaTests */,
+				80667B158771BA03CC68C33EFF9F3658 /* Simple-Networking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0140A4B824A1031D8F55DA46785C4EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5846D7D925275B55D8138F4D7EF81939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59171183FED2D0F9334642B15B89A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F2F0642D4C9303DEB3733A9B186337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA5D74CB2A0C714650A8236D6400377 /* Pods-MozendaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4D784CE1CA3E92C8F10342B762B8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5430573B766D4F0599D089C7311A765A /* Pods-Mozenda-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9ADDD342691F467054E200ACBBF0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF847547ED1FC1E99EDB652859F27A40 /* DebugMode.swift in Sources */,
+				FABC121FDCCED3CB908B6EF2A70D13DE /* Encodable+Extensions.swift in Sources */,
+				9A69C06A1574DF2AF0DAE903E9316952 /* Errors.swift in Sources */,
+				637F6F34EDF507A20F4A723AB1DBEC52 /* NSURLSessionPinningDelegate.swift in Sources */,
+				6AAD726FE2450DB218F07E9946700889 /* RequestMethodTypes.swift in Sources */,
+				8791DD0EBC08FBC4AAB78EA354184969 /* Requests.swift in Sources */,
+				E0D7190B2740B558EC2C461F4661F316 /* ResultBlocks.swift in Sources */,
+				609575B8325274F038640EB804B2EE7B /* Simple-Networking-dummy.m in Sources */,
+				2DB6882EB914F03106102A5956DF9D0C /* SimpleNetworking.swift in Sources */,
+				AB6ED1E7D7B254AD3A16A9F9F998A7EC /* SN+DeleteMethods.swift in Sources */,
+				034B4EFD8864AC3C2BBDE12BA06C0BC9 /* SN+GetMethods.swift in Sources */,
+				4E3665643C92133F16F738457112CD9E /* SN+PostMethods.swift in Sources */,
+				DCDC13BEC44641C85AADE875FC5D6BB7 /* SN+PutMethods.swift in Sources */,
+				E5FAF9609B2E89B52159C00ECE6B6629 /* SN.swift in Sources */,
+				74FEBB6CECECC869955D5316A60C1AE1 /* SSLConfig.swift in Sources */,
+				D65886D50DE190D83EC9DB8FB521AF48 /* Thread.swift in Sources */,
+				C4EDB85D8691EA5D754A141D373B1B99 /* Validator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4591E89D54C6306A64875E85DEDD3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Mozenda";
+			target = C910DD03E2CE4BB9ED56CE5E104F7798 /* Pods-Mozenda */;
+			targetProxy = C47E51DAD17BA7E992EB04BF7574E4FD /* PBXContainerItemProxy */;
+		};
+		E017A3F1907ACF7A8673449003FD46E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Simple-Networking";
+			target = 80667B158771BA03CC68C33EFF9F3658 /* Simple-Networking */;
+			targetProxy = BB366739CBA7EC23BDB16C075F24C0D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DB05C4E6A1FA37C6D489247D291BE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9EEB52B56E0187562F00669A1724D6 /* Pods-Mozenda.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mozenda/Pods-Mozenda-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mozenda/Pods-Mozenda.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2C19D4D40C12AA41DE6F52DD70F0B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F10A284EDBB337BE7E5686F97493B334 /* Pods-Mozenda.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mozenda/Pods-Mozenda-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mozenda/Pods-Mozenda.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A42099D4612FCE5E2534013C6AFCC926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA0F1DB1109789664BFF597E955E1BC /* Simple-Networking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Simple-Networking/Simple-Networking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Simple-Networking/Simple-Networking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Simple-Networking/Simple-Networking.modulemap";
+				PRODUCT_MODULE_NAME = Simple_Networking;
+				PRODUCT_NAME = Simple_Networking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C102E251CDCF0C945FBBE10FC272704F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D7F64DE0B61BB21A48475804A4F3FA /* Pods-MozendaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MozendaTests/Pods-MozendaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MozendaTests/Pods-MozendaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C67796DD8EDF6CC5C911C7D0D012DE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3875F768DD35DB6B63755D41E366FB2 /* Pods-MozendaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MozendaTests/Pods-MozendaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MozendaTests/Pods-MozendaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7B139A0EFA3A33EB3157DCED497B88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA0F1DB1109789664BFF597E955E1BC /* Simple-Networking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Simple-Networking/Simple-Networking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Simple-Networking/Simple-Networking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Simple-Networking/Simple-Networking.modulemap";
+				PRODUCT_MODULE_NAME = Simple_Networking;
+				PRODUCT_NAME = Simple_Networking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C4E6EAD6C9B1B4AAEBF966FCDF5786 /* Build configuration list for PBXNativeTarget "Simple-Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42099D4612FCE5E2534013C6AFCC926 /* Debug */,
+				E7B139A0EFA3A33EB3157DCED497B88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A80FF9D5F61EE131D8C70575E7ACBB9 /* Build configuration list for PBXNativeTarget "Pods-Mozenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C19D4D40C12AA41DE6F52DD70F0B24 /* Debug */,
+				5DB05C4E6A1FA37C6D489247D291BE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34BFF78B538E214318E69FFF3739978 /* Build configuration list for PBXNativeTarget "Pods-MozendaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C102E251CDCF0C945FBBE10FC272704F /* Debug */,
+				C67796DD8EDF6CC5C911C7D0D012DE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

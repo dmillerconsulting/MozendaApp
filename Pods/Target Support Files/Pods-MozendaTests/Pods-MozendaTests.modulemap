@@ -1,0 +1,6 @@
+framework module Pods_MozendaTests {
+  umbrella header "Pods-MozendaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

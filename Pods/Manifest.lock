@@ -1,0 +1,16 @@
+PODS:
+  - Simple-Networking (0.3.7)
+
+DEPENDENCIES:
+  - Simple-Networking
+
+SPEC REPOS:
+  trunk:
+    - Simple-Networking
+
+SPEC CHECKSUMS:
+  Simple-Networking: 5638d9895a51f58d8def21f84b49e8a4aee0c7d6
+
+PODFILE CHECKSUM: b422a31e129db126f80a3081520f5fcc2a8c2dfa
+
+COCOAPODS: 1.8.4

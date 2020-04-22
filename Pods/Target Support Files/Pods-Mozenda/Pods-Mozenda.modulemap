@@ -1,0 +1,6 @@
+framework module Pods_Mozenda {
+  umbrella header "Pods-Mozenda-umbrella.h"
+
+  export *
+  module * { export * }
+}
