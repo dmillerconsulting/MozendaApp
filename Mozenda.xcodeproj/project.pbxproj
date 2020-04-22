@@ -3,20 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1D6CC6E0E4A80017A90436C8 /* Pods_MozendaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1A2C3C5C7BC491E99C431E /* Pods_MozendaTests.framework */; };
 		5F96B3ABDE843CDB0A031210 /* Pods_Mozenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBEDAC264956E294D7A7D79 /* Pods_Mozenda.framework */; };
+		9671BBB82450F1300036564E /* Agents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9671BBB72450F1300036564E /* Agents.storyboard */; };
+		9671BBBB2450F2F80036564E /* Collections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9671BBBA2450F2F80036564E /* Collections.storyboard */; };
+		9671BBBD2450F3090036564E /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9671BBBC2450F3090036564E /* Settings.storyboard */; };
+		9671BBBF2450F4310036564E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671BBBE2450F4310036564E /* SceneDelegate.swift */; };
+		9671BBC22450F48C0036564E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671BBC02450F48C0036564E /* MasterViewController.swift */; };
+		9671BBC32450F48C0036564E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671BBC12450F48C0036564E /* DetailViewController.swift */; };
+		9671BBC62450F9610036564E /* SettingsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671BBC52450F9610036564E /* SettingsSplitViewController.swift */; };
+		9671BBCB2450F9DD0036564E /* AgentsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671BBCA2450F9DD0036564E /* AgentsSplitViewController.swift */; };
+		9671BBCD2450F9ED0036564E /* CollectionsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671BBCC2450F9ED0036564E /* CollectionsSplitViewController.swift */; };
 		968E8AD42450EC2500B93C51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E8AD32450EC2500B93C51 /* AppDelegate.swift */; };
-		968E8AD62450EC2500B93C51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E8AD52450EC2500B93C51 /* SceneDelegate.swift */; };
-		968E8AD82450EC2500B93C51 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E8AD72450EC2500B93C51 /* MasterViewController.swift */; };
-		968E8ADA2450EC2500B93C51 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E8AD92450EC2500B93C51 /* DetailViewController.swift */; };
-		968E8ADD2450EC2500B93C51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968E8ADB2450EC2500B93C51 /* Main.storyboard */; };
+		968E8ADD2450EC2500B93C51 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968E8ADB2450EC2500B93C51 /* Home.storyboard */; };
 		968E8ADF2450EC2600B93C51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968E8ADE2450EC2600B93C51 /* Assets.xcassets */; };
 		968E8AE22450EC2600B93C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968E8AE02450EC2600B93C51 /* LaunchScreen.storyboard */; };
 		968E8AED2450EC2600B93C51 /* MozendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E8AEC2450EC2600B93C51 /* MozendaTests.swift */; };
+		96D191472451051E00D2816A /* CollectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D191462451051E00D2816A /* CollectionDetailViewController.swift */; };
+		96D191492451053C00D2816A /* AgentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D191482451053C00D2816A /* AgentDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +41,26 @@
 		2056A221400971B9C5DF9501 /* Pods-Mozenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozenda.release.xcconfig"; path = "Target Support Files/Pods-Mozenda/Pods-Mozenda.release.xcconfig"; sourceTree = "<group>"; };
 		4E7DFD5E2610B4916D7B3759 /* Pods-Mozenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozenda.debug.xcconfig"; path = "Target Support Files/Pods-Mozenda/Pods-Mozenda.debug.xcconfig"; sourceTree = "<group>"; };
 		65799731423FC593DCB6AE6F /* Pods-MozendaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MozendaTests.release.xcconfig"; path = "Target Support Files/Pods-MozendaTests/Pods-MozendaTests.release.xcconfig"; sourceTree = "<group>"; };
+		9671BBB72450F1300036564E /* Agents.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Agents.storyboard; sourceTree = "<group>"; };
+		9671BBBA2450F2F80036564E /* Collections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collections.storyboard; sourceTree = "<group>"; };
+		9671BBBC2450F3090036564E /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		9671BBBE2450F4310036564E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Mozenda/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
+		9671BBC02450F48C0036564E /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9671BBC12450F48C0036564E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9671BBC52450F9610036564E /* SettingsSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSplitViewController.swift; sourceTree = "<group>"; };
+		9671BBCA2450F9DD0036564E /* AgentsSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentsSplitViewController.swift; sourceTree = "<group>"; };
+		9671BBCC2450F9ED0036564E /* CollectionsSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsSplitViewController.swift; sourceTree = "<group>"; };
 		968E8AD02450EC2500B93C51 /* Mozenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mozenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		968E8AD32450EC2500B93C51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		968E8AD52450EC2500B93C51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		968E8AD72450EC2500B93C51 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		968E8AD92450EC2500B93C51 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		968E8ADC2450EC2500B93C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		968E8ADC2450EC2500B93C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		968E8ADE2450EC2600B93C51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		968E8AE12450EC2600B93C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		968E8AE32450EC2600B93C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968E8AE82450EC2600B93C51 /* MozendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MozendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		968E8AEC2450EC2600B93C51 /* MozendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MozendaTests.swift; sourceTree = "<group>"; };
 		968E8AEE2450EC2600B93C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D191462451051E00D2816A /* CollectionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailViewController.swift; sourceTree = "<group>"; };
+		96D191482451053C00D2816A /* AgentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentDetailViewController.swift; sourceTree = "<group>"; };
 		9DBEDAC264956E294D7A7D79 /* Pods_Mozenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mozenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D5A8B027900AA187DA36EE /* Pods-MozendaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MozendaTests.debug.xcconfig"; path = "Target Support Files/Pods-MozendaTests/Pods-MozendaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB1A2C3C5C7BC491E99C431E /* Pods_MozendaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MozendaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +94,55 @@
 				A6D5A8B027900AA187DA36EE /* Pods-MozendaTests.debug.xcconfig */,
 				65799731423FC593DCB6AE6F /* Pods-MozendaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9671BBB92450F15A0036564E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				968E8ADB2450EC2500B93C51 /* Home.storyboard */,
+				9671BBB72450F1300036564E /* Agents.storyboard */,
+				968E8AE02450EC2600B93C51 /* LaunchScreen.storyboard */,
+				9671BBBA2450F2F80036564E /* Collections.storyboard */,
+				9671BBBC2450F3090036564E /* Settings.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9671BBC42450F9030036564E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9671BBC92450F9BB0036564E /* Collections */,
+				9671BBC82450F9B20036564E /* Agents */,
+				9671BBC72450F9A20036564E /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9671BBC72450F9A20036564E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9671BBC52450F9610036564E /* SettingsSplitViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9671BBC82450F9B20036564E /* Agents */ = {
+			isa = PBXGroup;
+			children = (
+				9671BBCA2450F9DD0036564E /* AgentsSplitViewController.swift */,
+				96D191482451053C00D2816A /* AgentDetailViewController.swift */,
+			);
+			path = Agents;
+			sourceTree = "<group>";
+		};
+		9671BBC92450F9BB0036564E /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				9671BBCC2450F9ED0036564E /* CollectionsSplitViewController.swift */,
+				96D191462451051E00D2816A /* CollectionDetailViewController.swift */,
+			);
+			path = Collections;
 			sourceTree = "<group>";
 		};
 		968E8AC72450EC2500B93C51 = {
@@ -105,13 +168,14 @@
 		968E8AD22450EC2500B93C51 /* Mozenda */ = {
 			isa = PBXGroup;
 			children = (
+				9671BBC42450F9030036564E /* Views */,
+				9671BBB92450F15A0036564E /* Storyboards */,
+				96E117D42450EE90002FF65E /* Models */,
 				968E8AD32450EC2500B93C51 /* AppDelegate.swift */,
-				968E8AD52450EC2500B93C51 /* SceneDelegate.swift */,
-				968E8AD72450EC2500B93C51 /* MasterViewController.swift */,
-				968E8AD92450EC2500B93C51 /* DetailViewController.swift */,
-				968E8ADB2450EC2500B93C51 /* Main.storyboard */,
+				9671BBBE2450F4310036564E /* SceneDelegate.swift */,
+				9671BBC12450F48C0036564E /* DetailViewController.swift */,
+				9671BBC02450F48C0036564E /* MasterViewController.swift */,
 				968E8ADE2450EC2600B93C51 /* Assets.xcassets */,
-				968E8AE02450EC2600B93C51 /* LaunchScreen.storyboard */,
 				968E8AE32450EC2600B93C51 /* Info.plist */,
 			);
 			path = Mozenda;
@@ -124,6 +188,13 @@
 				968E8AEE2450EC2600B93C51 /* Info.plist */,
 			);
 			path = MozendaTests;
+			sourceTree = "<group>";
+		};
+		96E117D42450EE90002FF65E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		9C37EA6E09026783F4E10412 /* Frameworks */ = {
@@ -221,7 +292,10 @@
 			files = (
 				968E8AE22450EC2600B93C51 /* LaunchScreen.storyboard in Resources */,
 				968E8ADF2450EC2600B93C51 /* Assets.xcassets in Resources */,
-				968E8ADD2450EC2500B93C51 /* Main.storyboard in Resources */,
+				9671BBBB2450F2F80036564E /* Collections.storyboard in Resources */,
+				9671BBBD2450F3090036564E /* Settings.storyboard in Resources */,
+				9671BBB82450F1300036564E /* Agents.storyboard in Resources */,
+				968E8ADD2450EC2500B93C51 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,9 +378,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				968E8AD42450EC2500B93C51 /* AppDelegate.swift in Sources */,
-				968E8AD62450EC2500B93C51 /* SceneDelegate.swift in Sources */,
-				968E8AD82450EC2500B93C51 /* MasterViewController.swift in Sources */,
-				968E8ADA2450EC2500B93C51 /* DetailViewController.swift in Sources */,
+				96D191492451053C00D2816A /* AgentDetailViewController.swift in Sources */,
+				9671BBCB2450F9DD0036564E /* AgentsSplitViewController.swift in Sources */,
+				9671BBC62450F9610036564E /* SettingsSplitViewController.swift in Sources */,
+				9671BBCD2450F9ED0036564E /* CollectionsSplitViewController.swift in Sources */,
+				9671BBBF2450F4310036564E /* SceneDelegate.swift in Sources */,
+				96D191472451051E00D2816A /* CollectionDetailViewController.swift in Sources */,
+				9671BBC22450F48C0036564E /* MasterViewController.swift in Sources */,
+				9671BBC32450F48C0036564E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,12 +408,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		968E8ADB2450EC2500B93C51 /* Main.storyboard */ = {
+		968E8ADB2450EC2500B93C51 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				968E8ADC2450EC2500B93C51 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		968E8AE02450EC2600B93C51 /* LaunchScreen.storyboard */ = {
