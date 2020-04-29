@@ -18,6 +18,9 @@
 		9671BBC62450F9610036564E /* SettingsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671BBC52450F9610036564E /* SettingsSplitViewController.swift */; };
 		9671BBCB2450F9DD0036564E /* AgentsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671BBCA2450F9DD0036564E /* AgentsSplitViewController.swift */; };
 		9671BBCD2450F9ED0036564E /* CollectionsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671BBCC2450F9ED0036564E /* CollectionsSplitViewController.swift */; };
+		968228A7245A1F260010968D /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968228A6245A1F260010968D /* NetworkHandler.swift */; };
+		968228A9245A22240010968D /* AgentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968228A8245A22240010968D /* AgentModels.swift */; };
+		968228AB245A35D30010968D /* JobModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968228AA245A35D30010968D /* JobModels.swift */; };
 		968E8AD42450EC2500B93C51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E8AD32450EC2500B93C51 /* AppDelegate.swift */; };
 		968E8ADD2450EC2500B93C51 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968E8ADB2450EC2500B93C51 /* Home.storyboard */; };
 		968E8ADF2450EC2600B93C51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968E8ADE2450EC2600B93C51 /* Assets.xcassets */; };
@@ -50,6 +53,9 @@
 		9671BBC52450F9610036564E /* SettingsSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSplitViewController.swift; sourceTree = "<group>"; };
 		9671BBCA2450F9DD0036564E /* AgentsSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentsSplitViewController.swift; sourceTree = "<group>"; };
 		9671BBCC2450F9ED0036564E /* CollectionsSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsSplitViewController.swift; sourceTree = "<group>"; };
+		968228A6245A1F260010968D /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		968228A8245A22240010968D /* AgentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentModels.swift; sourceTree = "<group>"; };
+		968228AA245A35D30010968D /* JobModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobModels.swift; sourceTree = "<group>"; };
 		968E8AD02450EC2500B93C51 /* Mozenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mozenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		968E8AD32450EC2500B93C51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		968E8ADC2450EC2500B93C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
@@ -177,6 +183,7 @@
 				9671BBC02450F48C0036564E /* MasterViewController.swift */,
 				968E8ADE2450EC2600B93C51 /* Assets.xcassets */,
 				968E8AE32450EC2600B93C51 /* Info.plist */,
+				968228A6245A1F260010968D /* NetworkHandler.swift */,
 			);
 			path = Mozenda;
 			sourceTree = "<group>";
@@ -193,6 +200,8 @@
 		96E117D42450EE90002FF65E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				968228A8245A22240010968D /* AgentModels.swift */,
+				968228AA245A35D30010968D /* JobModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -380,10 +389,13 @@
 				968E8AD42450EC2500B93C51 /* AppDelegate.swift in Sources */,
 				96D191492451053C00D2816A /* AgentDetailViewController.swift in Sources */,
 				9671BBCB2450F9DD0036564E /* AgentsSplitViewController.swift in Sources */,
+				968228A7245A1F260010968D /* NetworkHandler.swift in Sources */,
 				9671BBC62450F9610036564E /* SettingsSplitViewController.swift in Sources */,
 				9671BBCD2450F9ED0036564E /* CollectionsSplitViewController.swift in Sources */,
 				9671BBBF2450F4310036564E /* SceneDelegate.swift in Sources */,
+				968228A9245A22240010968D /* AgentModels.swift in Sources */,
 				96D191472451051E00D2816A /* CollectionDetailViewController.swift in Sources */,
+				968228AB245A35D30010968D /* JobModels.swift in Sources */,
 				9671BBC22450F48C0036564E /* MasterViewController.swift in Sources */,
 				9671BBC32450F48C0036564E /* DetailViewController.swift in Sources */,
 			);
