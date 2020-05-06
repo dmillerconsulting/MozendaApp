@@ -28,6 +28,7 @@
 		968E8AED2450EC2600B93C51 /* MozendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E8AEC2450EC2600B93C51 /* MozendaTests.swift */; };
 		96D191472451051E00D2816A /* CollectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D191462451051E00D2816A /* CollectionDetailViewController.swift */; };
 		96D191492451053C00D2816A /* AgentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D191482451053C00D2816A /* AgentDetailViewController.swift */; };
+		96DB2D792463616D003973C9 /* JSONResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB2D782463616D003973C9 /* JSONResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		968E8AEE2450EC2600B93C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96D191462451051E00D2816A /* CollectionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailViewController.swift; sourceTree = "<group>"; };
 		96D191482451053C00D2816A /* AgentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentDetailViewController.swift; sourceTree = "<group>"; };
+		96DB2D782463616D003973C9 /* JSONResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONResult.swift; sourceTree = "<group>"; };
 		9DBEDAC264956E294D7A7D79 /* Pods_Mozenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mozenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D5A8B027900AA187DA36EE /* Pods-MozendaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MozendaTests.debug.xcconfig"; path = "Target Support Files/Pods-MozendaTests/Pods-MozendaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB1A2C3C5C7BC491E99C431E /* Pods_MozendaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MozendaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +204,7 @@
 			children = (
 				968228A8245A22240010968D /* AgentModels.swift */,
 				968228AA245A35D30010968D /* JobModels.swift */,
+				96DB2D782463616D003973C9 /* JSONResult.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 			files = (
 				968E8AD42450EC2500B93C51 /* AppDelegate.swift in Sources */,
 				96D191492451053C00D2816A /* AgentDetailViewController.swift in Sources */,
+				96DB2D792463616D003973C9 /* JSONResult.swift in Sources */,
 				9671BBCB2450F9DD0036564E /* AgentsSplitViewController.swift in Sources */,
 				968228A7245A1F260010968D /* NetworkHandler.swift in Sources */,
 				9671BBC62450F9610036564E /* SettingsSplitViewController.swift in Sources */,

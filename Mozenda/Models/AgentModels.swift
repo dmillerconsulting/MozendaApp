@@ -35,7 +35,7 @@ struct AgentGetListResponse: Codable {
 }
 
 struct AgentGetJobsResponse: Codable {
-    var job: AgentJob
+    var job: [AgentJob?]
 }
 
 // FIXME: Should 'command' be an enum?

@@ -75,10 +75,63 @@ struct Job: Codable {
         case state = "State"
         case sequenceID = "SequenceID"
         case duration = "Duration"
-        
     }
 }
 
 enum JobState: String, Codable {
     case done = "Done"
+}
+
+struct JobStateChangeResponse: Codable {
+    var result: Result
+    
+    enum CodingKeys: String, CodingKey {
+        case result = "Result"
+    }
+}
+
+enum Result: String, Codable {
+    case success = "Success"
+    case error = "Error"
+}
+
+struct JobGetActionResponse: Codable {
+    var agentID: Int
+    var jobID: Int
+    var action: JobAction
+    
+    enum CodingKeys: String, CodingKey {
+        case agentID = "AgentID"
+        case jobID = "JobID"
+        case action = "BeginList"
+    }
+}
+
+struct JobAction: Codable {
+    var type: JobActionType
+    var listName: String
+    var agentPage: String
+    var restartIndex: String
+    
+    enum CodingKeys: String, CodingKey {
+        case type = "Type"
+        case listName = "ListName"
+        case agentPage = "AgentPage"
+        case restartIndex = "RestartIndex"
+    }
+}
+
+// FIXME: Find all of these, it could be a lot
+enum JobActionType: String, Codable {
+    case beginAnchorList = "BeginAnchorList"
+}
+
+struct JobGetListResponse: Codable {
+    var jobCount: Int
+    var jobs: [Job]
+    
+    enum CodingKeys: String, CodingKey {
+        case jobCount = "JobCount"
+        case jobs = "Jobs"
+    }
 }
