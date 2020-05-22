@@ -14,7 +14,22 @@ class AgentsSplitViewController: UISplitViewController {
         super.viewDidLoad()
         delegate = self
         preferredDisplayMode = .allVisible
+        fetchAgents()
         // Do any additional setup after loading the view.
+    }
+    
+    func fetchAgents() {
+        NetworkController.performRequest(httpMethod: .Get, urlParameters: ["Operation":"Agent.GetList"]) { (data, error) in
+            if let error = error {
+                print(error)
+            }
+            
+            if let data = data {
+                let json = try? JSONSerialization.jsonObject(with: data, options: .allowFragments)
+                let agents = try? JSONDecoder().decode(Agent.self, from: data)
+                print(agents)
+            }
+        }
     }
     
 

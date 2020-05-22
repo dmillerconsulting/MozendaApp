@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Agent Detail View Controller-->
         <scene sceneID="O4j-gE-h7f">
             <objects>
-                <viewController id="k5L-Bj-6kd" sceneMemberID="viewController">
+                <viewController id="k5L-Bj-6kd" customClass="AgentDetailViewController" customModule="Mozenda" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vB2-5M-aHp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -9,10 +9,12 @@
 import Foundation
 import UIKit
 
+// FIXME: Rewrite this crap
+
 class NetworkController {
     
     // MARK: Properties
-    static var baseURL = "https://api.mozenda.com/rest"
+    static var baseMozendaURL = "https://api.mozenda.com/rest"
     static var limit: Int = 200
     
     enum HTTPMethod: String {
@@ -23,15 +25,15 @@ class NetworkController {
         case Delete = "DELETE"
     }
     
-    static func performRequest(for url: URL,
+    static func performRequest(for url: URL? = nil,
                                httpMethod: HTTPMethod,
-                               urlParameters: [String : String]? = nil,
+                               urlParameters: [String : String]?,
                                body: Data? = nil,
-                               completion: ((Data?, Error?) -> Void)? = nil) {
+                               completion: ((Data?, Error?) -> Void)?) {
         
         // Build out entire URL
         
-        let requestURL = self.url(byAdding: urlParameters, to: url)
+        guard let requestURL = self.url(byAdding: urlParameters, to: url) else{ completion?(nil, nil); return }
         var request = URLRequest(url: requestURL)
         request.httpMethod = httpMethod.rawValue
         request.httpBody = body
@@ -54,20 +56,22 @@ class NetworkController {
         dataTask.resume()
     }
     
+    // FIXME: Probably turn this into an extension on URL
     static func url(byAdding parameters: [String : String]?,
-                    to url: URL) -> URL {
+                    to url: URL?) -> URL? {
+        
+        guard let baseURL = URL(string: baseMozendaURL) else { return nil }
         
         let defaultComponents = [URLQueryItem(name: "WebServiceKey", value: "8FD36CD7-2868-4C80-82A4-D0F4026BFA8F"),
-                                 URLQueryItem(name: "Service", value: "Mozenda10")]
+                                 URLQueryItem(name: "Service", value: "Mozenda10"),
+                                 URLQueryItem(name: "ResponseFormat", value: "JSON")]
+        var components = URLComponents(url: baseURL, resolvingAgainstBaseURL: true)
+        let paramComponents = parameters?.compactMap({ URLQueryItem(name: $0.0, value: $0.1) }) ?? []
+
+        components?.queryItems = defaultComponents
+        components?.queryItems?.append(contentsOf: paramComponents)
         
-        var components = URLComponents(url: url, resolvingAgainstBaseURL: true)
-        components?.queryItems = parameters?.compactMap({ URLQueryItem(name: $0.0, value: $0.1) })
-        components?.queryItems?.append(contentsOf: defaultComponents)
-        
-        guard let url = components?.url else {
-            fatalError("URL optional is nil")
-        }
-        return url
+        return components?.url
     }
     
     static func decrementLimit() {

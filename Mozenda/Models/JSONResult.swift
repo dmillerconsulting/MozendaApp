@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct JSONResult: Codable {
+struct JSONResul2: Codable {
     var command: Command
     var result: Result
     var errorCode: String?
